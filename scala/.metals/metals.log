@@ -1,0 +1,89 @@
+2023.06.03 12:07:29 INFO  Started: Metals version 0.11.12 in workspace '/Users/camilo/Exercism/scala' for client Visual Studio Code 1.78.2.
+Jun 03, 2023 12:07:29 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 03, 2023 12:07:29 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 03, 2023 12:07:29 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 03, 2023 12:07:29 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/camilo/Exercism/scala/.metals/metals (H2 2.1)
+Jun 03, 2023 12:07:29 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 03, 2023 12:07:29 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.008s)
+Jun 03, 2023 12:07:29 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 03, 2023 12:07:29 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 03, 2023 12:07:29 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 03, 2023 12:07:29 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 03, 2023 12:07:29 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 03, 2023 12:07:29 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 03, 2023 12:07:29 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.027s)
+2023.06.03 12:07:29 INFO  time: initialize in 0.32s
+2023.06.03 12:07:30 WARN  Build server is not auto-connectable.
+2023.06.03 12:07:30 WARN  no build tool detected in workspace '/Users/camilo/Exercism/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Jun 03, 2023 12:07:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jun 03, 2023 12:07:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.06.03 12:07:30 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:07:30 WARN  no build target for: /Users/camilo/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala
+2023.06.03 12:07:30 WARN  no build target for: /Users/camilo/Exercism/scala/hello-world/src/main/scala/HelloWorld.scala
+2023.06.03 12:07:38 INFO  no build target found for /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.03 12:07:39 INFO  time: code lens generation in 8.54s
+2023.06.03 12:08:45 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:09 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:10 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:11 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:12 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:12 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:11 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:12 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:12 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:12 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:12 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:12 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:12 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:33 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:51 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:58 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:58 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:09:58 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:10:08 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:10:09 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:10:09 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:10:09 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:10:34 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/test/scala/TwoferTest.scala
+Jun 03, 2023 12:14:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 220
+2023.06.03 12:14:16 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:17 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:19 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:20 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:20 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:20 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:20 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:20 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:20 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:20 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:20 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:20 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:24 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:24 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:25 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:24 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:25 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:28 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:29 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:29 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:41 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:41 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:48 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:48 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
+2023.06.03 12:14:48 WARN  no build target for: /Users/camilo/Exercism/scala/two-fer/src/main/scala/Twofer.scala
